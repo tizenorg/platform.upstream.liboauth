@@ -1,0 +1,20 @@
+Source: liboauth
+Section: net
+Priority: extra
+Maintainer: Sampath Kumar Chitra <sk.chitra@samsung.com>
+Uploaders: Sampath Kumar Chitra <sk.chitra@samsung.com>
+Build-Depends: debhelper (>= 5), autotools-dev, libglib2.0-dev (>= 2.21.3), pkg-config, libxml2-dev, libgnutls-dev, libssl-dev
+Standards-Version: 0.1.0
+
+Package: liboauth
+Section: libs
+Architecture: any
+Depends: libgnutls26
+Replaces: libsoup2.4-1
+Description: library implementing the OAuth secure authentication protocol (shared libs)
+
+Package: liboauth-dev
+Section: libdevel
+Architecture: any
+Depends: liboauth (= ${binary:Version}), libglib2.0-dev (>= 2.18.1), libxml2-dev, pkg-config, libgnutls-dev, libssl-dev
+Description: library implementing the OAuth secure authentication protocol (development files)

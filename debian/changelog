@@ -1,0 +1,55 @@
+liboauth (0.9.4-3) unstable; urgency=low
+
+  * Upgraded to 0.9.4
+  * Git : 165.213.180.234:/slp/pkgs/l/liboauth
+  * Tag : liboauth_0.9.4-3
+ 
+ -- Sampath Kumar Chitra <sk.chitra@samsung.com>  Mon, 01 Aug 2011 17:07:12 +0900
+
+liboauth (0.9.4-2) unstable; urgency=low
+
+  * Upgraded to 0.9.4
+  * Git : 165.213.180.234:/slp/pkgs/l/liboauth
+  * Tag : liboauth_0.9.4-1 
+
+ -- Sampath Kumar Chitra <sk.chitra@samsung.com>  Mon, 01 Aug 2011 17:01:16 +0900
+
+liboauth (0.9.4-1) unstable; urgency=low
+
+  * Upgraded to 0.9.4
+  * Git : 165.213.180.234:/git/slp/pkgs/liboauth
+  * Tag : liboauth_0.9.4-1
+
+ -- Sampath Kumar Chitra <sk.chitra@samsung.com>  Fri, 29 Jul 2011 19:35:28 +0900
+
+liboauth (0.9.1-4) unstable; urgency=low
+
+  * Initial Source package checkin after migration
+  * Git : 165.213.180.234:/git/slp/pkgs/liboauth
+  * Tag : liboauth_0.9.1-4 
+
+ -- WooJin Yun <suhoangel9@samsung.com>  Thu, 18 Nov 2010 16:16:06 +0900
+
+liboauth (0.9.1-3) unstable; urgency=low
+
+  * Initial Source package checkin after migration
+  * Git : 165.213.180.234:/git/slp/pkgs/liboauth
+  * Tag : liboauth_0.9.1-3 
+
+ -- WooJin Yun <suhoangel9@samsung.com>  Thu, 18 Nov 2010 14:39:28 +0900
+
+liboauth (0.9.1-2) unstable; urgency=low
+
+  * Updated dependencies
+  * Git : 165.213.180.234:/git/slp/apps/liboauth
+  * Tag : liboauth_0.9.1-2 
+
+ -- Sampath Kumar Chitra <sk.chitra@samsung.com>  Wed, 17 Nov 2010 16:27:02 +0900
+
+liboauth (0.9.1-1) unstable; urgency=low
+
+  * Initial release. (Closes: #XXXXXX)
+  * Git : 165.213.180.234:/git/slp/apps/liboauth
+  * Tag : liboauth_0.9.1-1
+
+ -- Sampath Kumar Chitra <sk.chitra@samsung.com>  Wed, 17 Nov 2010 09:27:28 +0900
