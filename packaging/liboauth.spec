@@ -2,7 +2,7 @@ Name:       liboauth
 Summary:    OAuth - server to server secure API authentication
 Version: 1.0.3
 Release:    1
-Group:      TO_BE/FILLED_IN
+Group:      Social & Content/API
 License:    MIT
 URL:        http://liboauth.sourceforge.net/
 Source0:    %{name}-%{version}.tar.gz
@@ -37,6 +37,12 @@ mkdir -p %{buildroot}/usr/share/license
 cp %{_builddir}/%{name}-%{version}/COPYING.MIT %{buildroot}/usr/share/license/%{name}
 
 %make_install
+
+%post -n liboauth -p /sbin/ldconfig
+%post -n liboauth-devel -p /sbin/ldconfig
+
+%postun -n liboauth -p /sbin/ldconfig
+%postun -n liboauth-devel -p /sbin/ldconfig
 
 %files
 /usr/share/license/%{name}
